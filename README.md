@@ -1,43 +1,36 @@
-# 🌍 Bhojju's GIS & Remote Sensing Portfolio
+# 🌱 NDVI/EVI/NDWI Vegetation Monitoring Portal
 
-This repository contains my projects in **GIS, Remote Sensing, and Geospatial Analysis** using  
-🛰️ Satellite data • 🗺️ QGIS • 🌐 Google Earth Engine • 🐍 Python
-
----
-
-## 1 📊 NDVI / EVI / NDWI Vegetation Monitoring Portal
-- Developed interactive vegetation monitoring portal  
-- Cloud masking, time-series charts, and visualization  
-- Tools: Google Earth Engine  
-
-🔗 [Live App](YOUR_APP_LINK_HERE)
+An interactive web application built on **Google Earth Engine** for monitoring vegetation health using remote sensing indices.
 
 ---
 
-## 2 🗺️ Land Use / Land Cover Classification (Maharashtra DEM)
-- Processed DEM & satellite data  
-- Classified different **elevation zones** and **land cover types**  
-- Tools: QGIS + Python  
+## ✨ Features
+- 📊 Vegetation Indices: **NDVI, EVI, NDWI, VCI**
+- 🗺️ AOI (Area of Interest) selection with polygon tool
+- ☁️ Cloud masking (user-defined threshold)
+- ⏳ Time-series vegetation analysis
+- 📂 Export options: **GeoTIFF (map)** & **CSV (time-series)**
+- 🌍 Powered by **Google Earth Engine**
 
 ---
 
-## 3 🏔️ DEM Analysis (Elevation & Slope Mapping)
-- Generated **slope, aspect, and hillshade maps**  
-- Useful for **agriculture, watershed management, and planning**  
+## 🚀 Live App
+👉 [Click to Open the Portal](https://gleaming-cove-469307-u0.projects.earthengine.app/view/ndvieviandndwi-vegetation-monitoring-portal)
 
 ---
 
-## 4 🌱 Remote Sensing Vegetation Dashboard (Sentinel-2)
-- Interactive dashboard for monitoring **vegetation health**  
-- Indices: **NDVI, EVI, NDWI, VCI**  
-- AOI selection, cloud masking, and time-series analysis  
-- Export options: **GeoTIFF (map)** and **CSV (time-series)**  
-- Tools: Google Earth Engine  
-
-🔗 [Live App](YOUR_APP_LINK_HERE)
+## 🛠️ Tech Stack
+- **Google Earth Engine (JavaScript API)**
+- **Sentinel-2 Satellite Imagery**
+- **Cloud Masking Algorithms**
+- **Custom Visualization Palettes**
 
 ---
 
-## 📬 Contact
-- 📧 Email: your-email@example.com  
-- 🌐 GitHub: [Your GitHub Profile](https://github.com/your-username)
+## 📖 How to Use
+1. Open the [Live Portal](https://gleaming-cove-469307-u0.projects.earthengine.app/view/ndvieviandndwi-vegetation-monitoring-portal)  
+2. Draw AOI (polygon) on the map  
+3. Select vegetation index (**NDVI / EVI / NDWI / VCI**)  
+4. Adjust cloud cover percentage (slider)  
+5. Click **Run Analysis** → visualize vegetation health  
+6. Export
